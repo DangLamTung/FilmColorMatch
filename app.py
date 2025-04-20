@@ -17,7 +17,7 @@ from film_simulation import *
 # retreive model from tfhub
 from google import genai
 
-client = genai.Client(api_key="AIzaSyB48j08Xi5rLdjix8NwV6CSe8ae6m0Vp58")
+client = genai.Client(api_key="")
 
 FILE_PATH_STYLE = './temp_style.png'
 FILE_PATH_CONTENT = './temp_content.png'

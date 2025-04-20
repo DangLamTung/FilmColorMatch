@@ -1,7 +1,7 @@
 # retreive model from tfhub
 from google import genai
 from film_simulation import *
-client = genai.Client(api_key="AIzaSyB48j08Xi5rLdjix8NwV6CSe8ae6m0Vp58")
+client = genai.Client(api_key="")
 
 myfile = client.files.upload(file="./hq720.jpg")
 
